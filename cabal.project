@@ -209,12 +209,6 @@ source-repository-package
 
 source-repository-package
   type: git
-  location: https://github.com/input-output-hk/cardano-sl-x509
-  tag: 43a036c5bbe68ca2e9cbe611eab7982e2348fe49
-  --sha256: 1aw7ns8lv51fjf45k8yzils2j7a6bqzy8hn65kb3z0dn1qsm8x88
-
-source-repository-package
-  type: git
   location: https://github.com/input-output-hk/goblins
   tag: 312198a1523736181ef7ddab15958bb32a9d9052
   --sha256: 1w1b3g1s64rv4glrj416v1jmwnqhlz1zcqmz2y813jgs4d32m27k
@@ -367,8 +361,7 @@ source-repository-package
   subdir: cborg
 
 constraints:
-    ip < 1.5
-  , hedgehog >= 1.0
+    hedgehog >= 1.0
   , bimap >= 0.4.0
   , brick >= 0.47
   , libsystemd-journal >= 1.4.4
